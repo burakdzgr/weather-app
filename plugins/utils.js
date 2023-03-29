@@ -74,6 +74,7 @@ export const weatherIcons = {
     "01d" : "01d",
     "01n" : "01n",
     "02d" : "02d",
+    "02n" : "02n",
     "03d" : "03d",
     "03n" : "03n",
     "04d" : "04d",
@@ -83,6 +84,7 @@ export const weatherIcons = {
     "10n" : "10n",
     "11d" : "11d",
     "13d" : "13d",
+    "13n" : "13n",
     "50d" : "50d",
 }
 export default ({ app }, inject) => {
