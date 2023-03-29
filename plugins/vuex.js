@@ -51,7 +51,6 @@ const store = createStore( {
         if (state.cities) {
           latitude = state.cities[0]?.coord.lat;
           longitude = state.cities[0]?.coord.lon;
-          console.log("search component")
         } else if (navigator.geolocation) {
           const getPosition = () => {
             return new Promise((resolve, reject) => {
@@ -61,7 +60,6 @@ const store = createStore( {
           const position = await getPosition();
           latitude = position.coords.latitude;
           longitude = position.coords.longitude;
-          console.log("current component")
         } else if (location && location.latitude && location.longitude) {
           latitude = location.latitude;
           longitude = location.longitude;
