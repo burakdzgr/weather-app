@@ -1,7 +1,7 @@
 <template>
-<footer class="footer w-full border-t border-[#474359]">
+<footer class="footer w-full border-t border-[#474359] py-1.5">
   <div class="container mx-auto">
-    <span class="block text-white/50 text-lg text-center py-4">© Burak Dizieğri | Chex Case</span>
+    <span class="block text-white/50 text-lg text-center ">© Burak Dizieğri | Chex Case</span>
   </div>
 </footer>
 </template>
