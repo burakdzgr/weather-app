@@ -1,0 +1,15 @@
+{
+  "@vite/client": {
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "C:/Users/sogut/OneDrive/Masaüstü/weather-app/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "isEntry": true,
+    "file": "C:/Users/sogut/OneDrive/Masaüstü/weather-app/node_modules/nuxt/dist/app/entry.js"
+  }
+}
