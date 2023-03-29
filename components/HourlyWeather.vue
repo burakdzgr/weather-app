@@ -28,7 +28,7 @@ export default {
     const getWeatherIconUrl = (iconCode) => {
       const iconName = weatherIcons[iconCode];
       if (iconName) {
-        return `${iconName}.png`;
+        return `./static/${iconName}.png`;
       } else {
         return `http://openweathermap.org/img/w/${iconCode}.png`;
       }
